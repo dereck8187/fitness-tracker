@@ -1,7 +1,7 @@
 async function init() {
     const allWorkouts = await API.getAllWorkouts();
     const lastWorkout = allWorkouts[allWorkouts.length - 1]
-    //const lastWorkout = await API.getLastWorkout();
+    
     console.log(lastWorkout, allWorkouts);
   
     document
